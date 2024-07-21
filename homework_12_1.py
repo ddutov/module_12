@@ -48,4 +48,4 @@ class RunnerTest(unittest.TestCase):
         for i in range(0, 10):
             object1.walk()
             object2.run()
-        self.assertNotEqual(object1.distance, object2.distance,msg=f'результаты теста {object1.distance} и {object2.distance} не должны совпадать')
+        self.assertNotEqual(object1.distance, object2.distance, msg=f'результаты теста {object1.distance} и {object2.distance} не должны совпадать')
